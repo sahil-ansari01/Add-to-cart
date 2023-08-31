@@ -8,7 +8,7 @@ body {
     user-select: none;
     background-image: url(assets/background.jpeg);
     background-position: center;  
-    background-repeat: no-repeat;  
+    background-repeat: repeat;  
     background-size: fixed;
 }
 
