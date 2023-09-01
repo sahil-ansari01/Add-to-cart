@@ -8,8 +8,9 @@ body {
     user-select: none;
     background-image: url(assets/background.jpeg);
     background-position: center;  
-    background-repeat: repeat;  
+    background-repeat: no-repeat;  
     background-size: fixed;
+    background-size: auto;
 }
 
 .container {
@@ -74,4 +75,16 @@ ul li {
 ul li:hover {
     cursor: pointer;
     background-color: #FFECC7;
+}
+
+footer {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 25vh;
+}
+
+footer .fa {
+    color: #432000;
+    font-size: 30px;
+    padding: 20px;
 }
